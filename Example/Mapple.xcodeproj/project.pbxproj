@@ -15,6 +15,8 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		79BFC3DD05F782526F9AB43C /* Pods_Mapple_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C02C0D760FE454546AD4DDE3 /* Pods_Mapple_Tests.framework */; };
+		A923371C269FE26400BC9E46 /* RouteDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = A923371B269FE26400BC9E46 /* RouteDefine.swift */; };
+		A923371E269FE30500BC9E46 /* Test.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A923371D269FE30500BC9E46 /* Test.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		88C8E8851146FB519AB6F7AA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A923371B269FE26400BC9E46 /* RouteDefine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteDefine.swift; sourceTree = "<group>"; };
+		A923371D269FE30500BC9E46 /* Test.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Test.storyboard; sourceTree = "<group>"; };
 		B4F71A38C22CBD622BA72CB9 /* Pods-Mapple_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mapple_Tests.release.xcconfig"; path = "Target Support Files/Pods-Mapple_Tests/Pods-Mapple_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B875A7277462390BEDDC265F /* Pods_Mapple_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mapple_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C02C0D760FE454546AD4DDE3 /* Pods_Mapple_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mapple_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,10 +99,12 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				A923371D269FE30500BC9E46 /* Test.storyboard */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				A923371B269FE26400BC9E46 /* RouteDefine.swift */,
 			);
 			name = "Example for Mapple";
 			path = Mapple;
@@ -249,6 +255,7 @@
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				A923371E269FE30500BC9E46 /* Test.storyboard in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -333,6 +340,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				A923371C269FE26400BC9E46 /* RouteDefine.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

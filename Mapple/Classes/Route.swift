@@ -9,8 +9,8 @@ import Foundation
 
 public struct Route<T>{
     public var name:String
-    public var creator:(Dictionary<String,String>)->T
-    public init(name:String,creator:@escaping (Dictionary<String,String>)->T){
+    public var creator:(String,Dictionary<String,String>)->T
+    public init(name:String,creator:@escaping (String,Dictionary<String,String>)->T){
         self.name = name
         self.creator = creator
     }
@@ -25,7 +25,7 @@ public class ConfigrationRoute<T>{
     }
     
     public func route(route:String,param:Dictionary<String,String> = [:])->T?{
-        self.keyPath[route]?.creator(param)
+        self.keyPath[route]?.creator(route,param)
     }
     
     
