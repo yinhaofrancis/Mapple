@@ -1,0 +1,6 @@
+framework module Mapple {
+  umbrella header "Mapple-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Mapple",
+  "version": "0.1.0",
+  "summary": "A short description of Mapple.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/yinhaofrancis/Mapple",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yinhaofrancis": "yinhao@5eplay.com"
+  },
+  "source": {
+    "git": "https://github.com/yinhaofrancis/Mapple.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "Mapple/Classes/**/*"
+}

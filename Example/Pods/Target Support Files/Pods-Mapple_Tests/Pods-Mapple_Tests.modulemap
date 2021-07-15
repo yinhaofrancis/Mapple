@@ -1,0 +1,6 @@
+framework module Pods_Mapple_Tests {
+  umbrella header "Pods-Mapple_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

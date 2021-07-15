@@ -1,0 +1,16 @@
+PODS:
+  - Mapple (0.1.0)
+
+DEPENDENCIES:
+  - Mapple (from `../`)
+
+EXTERNAL SOURCES:
+  Mapple:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Mapple: 5ea98f03975cc6cc75754746e97eae258a5ade31
+
+PODFILE CHECKSUM: 541eaebb38bc3b7f4ce45f8b31882c95739a85c4
+
+COCOAPODS: 1.10.1
