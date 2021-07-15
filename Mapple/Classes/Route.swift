@@ -16,16 +16,6 @@ public struct Route<T>{
     }
 }
 
-@resultBuilder
-public enum RouteBuilder<T>{
-    public static func buildBlock(_ components: Route<T>...) -> Dictionary<String,Route<T>> {
-        components.reduce(into: [:]) { r, o in
-            r[o.name] = o
-        }
-    }
-    
-}
-
 
 public class ConfigrationRoute<T>{
 
@@ -36,5 +26,16 @@ public class ConfigrationRoute<T>{
     
     public func route(route:String,param:Dictionary<String,String> = [:])->T?{
         self.keyPath[route]?.creator(param)
+    }
+    
+    
+    @resultBuilder
+    public enum RouteBuilder<T>{
+        public static func buildBlock(_ components: Route<T>...) -> Dictionary<String,Route<T>> {
+            components.reduce(into: [:]) { r, o in
+                r[o.name] = o
+            }
+        }
+        
     }
 }
